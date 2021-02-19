@@ -1,4 +1,4 @@
-FROM pandoc-latex:latest
+FROM pandoc/latex:latest
 
 # Install necessary extra packages.
 RUN set -ex; \
